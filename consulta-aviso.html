@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta Avisos Pendentes - TJSP</title>
+  <style>
+    body{margin:0;font-family:"Segoe UI",Arial,sans-serif;}
+    header{position:fixed;top:0;width:100%;background:#0072ce;color:#fff;display:flex;align-items:center;justify-content:space-between;padding:8px 20px;box-shadow:0 2px 5px rgba(0,0,0,0.2);}
+    header img{width:60px;} header h1{font-size:1.2em;margin:0 10px;flex:1;}
+    nav{display:flex;gap:10px;}
+    nav a{color:#fff;text-decoration:none;font-weight:600;padding:8px 12px;border-radius:4px;transition:background 0.3s;}
+    nav a:hover{background:#005fa3;} nav a.active{background:#fff;color:#0072ce;}
+    main{margin-top:100px;max-width:800px;margin:auto;padding:20px;}
+    footer{background:#f2f2f2;text-align:center;padding:15px;margin-top:50px;color:#555;}
+  </style>
+</head>
+<body>
+<header>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Brasao_tjsp.png">
+  <h1>Tribunal de Justiça de São Paulo</h1>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="consulta-aviso.html" class="active">Avisos</a>
+    <a href="consulta-comunicacao.html">Comunicações</a>
+    <a href="consulta-processo.html">Processos</a>
+    <a href="peticionamento.html">Peticionamento</a>
+    <a href="consulta-alteracao.html">Alterações</a>
+    <a href="confirmacao.html">Confirmação</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Consulta Avisos Pendentes</h1>
+  <p>Consulte avisos ainda não recebidos pelo sistema.</p>
+  <input type="text" placeholder="Digite o número do aviso" style="width:100%;padding:10px;border-radius:5px;border:1px solid #ccc;">
+  <button style="margin-top:10px;padding:10px 20px;background:#0072ce;color:#fff;border:none;border-radius:5px;">Consultar</button>
+</main>
+
+<footer>© 2025 Tribunal de Justiça do Estado de São Paulo</footer>
+</body>
+</html>
