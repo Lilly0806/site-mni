@@ -94,16 +94,21 @@
     li.dropdown:hover .dropdown-content {
       display: block;
     }
-	  main {
-  width: 90vw;
+	
+    main {
+	    max-width: 900px; /* limita em telas grandes */
+  width: 90%;       /* ocupa 90% da tela em telas pequenas */
   margin: auto;
-  padding: 20px;
-  font-size: 14x;
-  text-align:left;
-  min-height: 500px;
-
+      text-align: left;
+      padding: 20px;
+	  
+    }
+	
+	main {
+  max-width: 900px; /* limita em telas grandes */
+  width: 90%;       /* ocupa 90% da tela em telas pequenas */
+  margin: auto;
 }
-
 	
     h1, h2 {
       text-align: center;
@@ -119,6 +124,13 @@
       margin-top: 30px;
     }
 	
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
     .menu a {
       display: inline-block;
       padding: 12px 25px;
@@ -131,19 +143,16 @@
     .menu a:hover {
       background-color: #005fa3;
     }
-   
+    footer {
+      margin-top: 50px;
+      background-color: #f2f2f2;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #555;
+      text-align: center;
+    }
 
-	footer {
-  background-color: #f2f2f2;
-  padding: 15px;
-  font-size: 0.9em;
-  color: #555;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  z-index: 1000;
-}
+	
 
 
 
@@ -190,46 +199,22 @@
   <nav>
     <ul>
       <li><a href="index.html">Início</a></li>
-      <li class="dropdown">
-        <a href="#">MNI 3.0▼</a>
+	  
+	   <li class="dropdown">
+        <a href="#">MNI 3.0 ▼</a>
         <div class="dropdown-content">
-        
-		   
-			<a href="consulta-alteracao.html">Consultar Alteração</a>
-			<a href="consulta-aviso.html">Consultar Avisos Pendentes</a>
-			<a href="consulta-processo.html">Consultar Processo</a>
-			<a href="consultarAssuntos.html">Consultar Assuntos</a>
-			<a href="consulta-remessa.html">Consultar Remessas</a>
-			<a href="consulta-classe.html">Consultar Classes</a>
-			<a href="consulta-localidade.html">Consultar Localidade</a>
-			<a href="consulta-documentoProcesso.html">Consultar Documento do Processo</a>
-			<a href="consulta-competencia.html">Consultar Competência</a>
-			<a href="consulta-teor.html">Consultar Teor Comunicação</a>
-			<a href="responder-comunicacao.html">Responder Comunicação</a>
-			<a href="remeter-processo.html">Remeter Processo</a>
-			<a href="entrega-peticao.html">Entregar Petição</a>
-            <a href="peticionamento.html">Entregar Petição Inicial</a>
-			<a href="confirmacao.html">Confirmação de Recebimento</a>
-			<a href="tabela-apoio.html">Tabela de Apoio</a>
-			<a href="solucoes-erro.html">Erros e Possíveis Soluções</a>
-			
-			
-	
+		    <a href="servicomni.html" target="_blank"> MNI 3.0</a>
         </div>
       </li>
 	  
-        <li class="dropdown">
-        <a href="#">MNI 2.2▼</a>
+	     <li class="dropdown">
+        <a href="#">MNI 2.2 ▼</a>
         <div class="dropdown-content">
-        
-		   
-			<a href="consulta-alteracao.html">Consultar Alteração</a>
-		
-
-			
-	
+		    <a href="servicomni2.html" target="_blank"> MNI 2.2</a>
         </div>
       </li>
+	  
+      
 	  
      <li class="dropdown">
         <a href="#">Endereço de Acesso MNI ▼</a>
