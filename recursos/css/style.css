@@ -12,7 +12,7 @@ header {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 15px 20px;
   font-weight: bold;
   position: sticky;
