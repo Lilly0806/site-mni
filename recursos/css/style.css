@@ -1,6 +1,7 @@
 body {
-  margin: 0;
+  
   font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
   background-color: #ffffff;
   color: #000;
   padding-bottom: 60px;
@@ -11,11 +12,11 @@ header {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 10px 0;
+  justify-content: space-between;
+  padding: 15px 20px;
   font-weight: bold;
-  position: relative;
-  z-index: 10;
+  position: sticky;
+  z-index: 100;
 }
 
 header img {
@@ -92,9 +93,12 @@ nav a:hover {
 li.dropdown:hover .dropdown-content {
   display: block;
 }
-	
+
+
+
+
 main {
-  margin: 40px auto;
+  margin: auto;
   max-width: 800px;
   text-align: left;
   padding: 20px;
@@ -114,6 +118,7 @@ h1, h2 {
   margin-top: 30px;
 }
 	
+
 
 
 .menu a {
@@ -179,7 +184,7 @@ footer {
         }
 
 
-		/* Tablets */
+/* Tablets */
 @media (max-width: 768px) {
   .nav {
     display: none;
