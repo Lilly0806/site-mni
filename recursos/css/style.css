@@ -67,6 +67,14 @@ nav a {
   text-decoration: none;
 }
 
+
+nav ul  a {
+  padding-top: 5px;   /* diminui o espaço interno superior */
+  padding-bottom: 5px; /* diminui o espaço interno inferior */
+  line-height: 1.2;   /* reduz a altura da linha */
+}
+
+
 nav a:hover {
   background-color: #005fa3;
 }
@@ -117,9 +125,6 @@ h1, h2 {
   gap: 15px;
   margin-top: 30px;
 }
-	
-
-
 
 .menu a {
   display: inline-block;
