@@ -34,14 +34,13 @@ header img {
   background-position: center;
   border-bottom: 4px solid #125DFF;
 }
-
-.banner:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.banner::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	heigth: 100%;
 }
 	
 nav {
