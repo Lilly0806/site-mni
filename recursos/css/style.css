@@ -91,7 +91,7 @@ nav a:hover {
 .dropdown-content a {
   display: block;
   padding: 10px 16px;
-  line-height: 0.8;
+	line-height: 0.8;
 }
 
 .dropdown-content a:hover {
