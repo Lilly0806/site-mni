@@ -70,7 +70,7 @@ nav a {
 nav ul  a {
   padding-top: 5px;   /* diminui o espaço interno superior */
   padding-bottom: 5px; /* diminui o espaço interno inferior */
-  line-height: 1.2;   /* reduz a altura da linha */
+  line-height: 1;   /* reduz a altura da linha */
 }
 
 
