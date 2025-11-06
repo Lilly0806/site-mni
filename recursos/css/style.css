@@ -28,19 +28,20 @@ header img {
   position: relative;
 	top: 5px;
   width: 100%;
-  height: 390px;
+  height: 400px;
   background-image: url('../img/imagem-palacio-tj.png');
   background-size: cover;
   background-position: center;
   border-bottom: 4px solid #125DFF;
 }
+
 .banner::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	heigth: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 	
 nav {
@@ -50,20 +51,11 @@ nav {
 }
 
 nav ul {
+  
   list-style: none;
   margin: 0; padding: 0;
   display: flex;
-}
-
-nav li {
-  position: relative;
-}
-
-nav a {
-  display: block;
-  padding: 12px 20px;
-  color: white;
-  text-decoration: none;
+  
 }
 
 
@@ -73,6 +65,17 @@ nav ul  a {
   line-height: 1;   /* reduz a altura da linha */
 }
 
+nav li {
+  position: relative;
+}
+
+
+nav a {
+  display: block;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+}
 
 nav a:hover {
   background-color: #005fa3;
@@ -83,7 +86,7 @@ nav a:hover {
   display: none;
   position: absolute;
   background-color: #0072ce;
-  min-width: 250px;
+  min-width: 200px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -91,11 +94,14 @@ nav a:hover {
 .dropdown-content a {
   display: block;
   padding: 10px 16px;
-	line-height: 0.8;
+  padding-bottom: 5px; /* diminui o espaço interno inferior */
+  padding-top: 5px;   /* diminui o espaço interno superior */
+  line-height: 0.8;
 }
 
 .dropdown-content a:hover {
   background-color: #005fa3;
+
 }
 
 li.dropdown:hover .dropdown-content {
@@ -122,9 +128,12 @@ h1, h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 5px;
   margin-top: 30px;
 }
+	
+
+
 
 .menu a {
   display: inline-block;
